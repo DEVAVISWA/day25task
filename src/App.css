@@ -1,0 +1,26 @@
+.myTodos{    
+    background-color: rgb(204,245,211) ;
+    width: 300px;
+    margin: 10px; 
+    padding: 10px; 
+    height: auto;  
+}   
+.flex{
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.center{
+    text-align: center;
+    margin: 20px;
+}
+.right{
+    text-align:  right;
+}
+.flexInput{
+    display: flex;    
+    justify-content: center;    
+}
+.margin {
+    margin: 10px;
+}
