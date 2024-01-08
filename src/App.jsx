@@ -9,18 +9,7 @@ function App() {
   const [filter, setFilter] = useState("All");
   const [editMode, setEditMode] = useState(false);
   const [editTodoId, setEditTodoId] = useState(null);
-
-  // useEffect(() => {
-  //   const storedTodos = localStorage.getItem("todos");
-  //   if (storedTodos) {
-  //     setTodos(JSON.parse(storedTodos));
-  //   }
-  // }, []);
-
-  // useEffect(() => {
-  //   localStorage.setItem("todos", JSON.stringify(todos));
-  // }, [todos]);
-
+ 
   const addTodo = () => {
     if (taskName.trim() === "" || description.trim() === "") {
       return;
